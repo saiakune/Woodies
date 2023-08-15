@@ -1,0 +1,285 @@
+@media screen and (max-width:1300px){
+    .nav_wrapp {
+        gap: 0;
+    }
+}
+@media screen and (max-width:1157px) {
+    .header_wrapper {
+        padding: 20px 31px 0 31px;
+    }
+    .nav {
+        display: flex;
+        gap: 32px;
+    }
+    .nav_wrapp {
+        display: flex;
+        align-items: center;
+    }
+    .subheader {
+        background-size: 50%;
+    }
+    .line {
+        width: 200px;
+    }
+    .line2 {
+        width: 34px;
+    }
+    .about {
+        font-size: 60px;
+    }
+    .who {
+        font-size: 30px;
+    }
+    .section_1 {
+        margin-left: -71px;
+    }
+    .plate_tittle {
+        font-size: 30px;
+    }
+    .plate {
+        font-size: 20px;
+    }
+    .plate_tittle2 {
+        font-size: 30px;
+    }
+    .section_2_wrapp {
+        width: 694px;
+    }
+    .section_2 {
+        margin-top: -184px;
+    }
+    .icons {
+        display: flex;
+        justify-content: center; 
+        gap: 25px;
+    }
+    .category_icon {
+        display: flex;
+        gap: 25px;
+        row-gap: 25px;
+        justify-content: center;
+    }
+    .review_wrapp {
+        gap: 24px;
+        justify-content: center;
+    }
+    .desk {
+        height: 380px;
+        width: 250px;
+    }
+    .chair {
+        height: 380px;
+        width: 250px;
+    }
+    .kitchenware {
+        height: 380px;
+        width: 250px;
+    }
+    .furniture {
+        font-size: 30px;
+    }
+    .place {
+        font-size: 55px;
+    }
+}
+@media screen and (max-width:1011px){
+    .section_1_wrapp {
+        width: 443px;
+        padding: 116px 48px 0 0;
+    }
+    .section_2_wrapp {
+        width: 644px;
+        padding: 149px 0 0 37px;
+    }
+    .footer {
+        padding: 0 60px;
+    }
+    .email {
+        width: 253px;
+    }
+    .button {
+        font-size: 15px;
+        padding: 9px 12px;
+    }
+    .subscribe_wrapp {
+        gap: 28px;
+    }
+    .testimony_wrapp {
+        padding: 0 60px;
+    }
+    .about {
+        font-size: 50px;
+    }
+    .nav ul {
+        display: flex;
+        gap: 26px;
+    }
+}
+@media screen and (max-width: 929px) {
+    .sign_up_link {
+        padding: 8px 28px;
+        font-size: 15px;
+    }
+    .nav ul {
+        display: flex;
+        gap: 17px;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .subheader_wrapp {
+        width: 430px;
+        padding: 159px 0 327px 38px;
+    }
+    .place {
+        font-size: 43px;
+    }
+    .furniture {
+        font-size: 25px;
+    }
+    .bold {
+        font-size: 25px;
+    }
+    .plate_tittle {
+        font-size: 25px;
+    }
+    .thin {
+        font-size: 25px;
+    }
+    .section_1_wrapp {
+        width: 411px;
+        padding: 114px 0px 0 0;
+    }
+    .plate_tittle2 {
+        font-size: 25px;
+    }
+    .bolder {
+        color: #000;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .section_2_wrapp {
+        width: 506px;
+        padding: 130px 0 0 37px;
+    }
+    .works_wrapp {
+        margin: 100px 0;
+    }
+    .review_text {
+        width: 335px;
+    }
+    .testimony_wrapp{
+        margin: 0 60px;
+    }
+}
+@media screen and (max-width: 865px){
+    .product li a {
+        color: #616161;
+    }
+    .plate_tittle {
+        font-size: 21px;
+    }
+    .plate {
+        font-size: 19px;
+    }
+    .thin {
+        font-size: 22px;
+    }
+    .section_1_wrapp {
+        width: 349px;
+    }
+    .plate_tittle2 {
+        font-size: 21px;
+    }
+    .bolder {
+        font-size: 24px;
+    }
+    .section_2_wrapp {
+        width: 442px;
+        padding: 125px 0 0 27px;
+    }
+    .section_1 {
+        margin-left: -87px;
+    }
+    .who {
+        font-size: 25px;
+    }
+    .about {
+        font-size: 40px;
+    }
+    .review_wrapp {
+        gap: 10px;
+    }       
+    .review_text {
+        width: 307px;
+        padding: 54px 8px;
+    }
+    .icons_1{
+        width: 140px;
+    }
+    .icons_text {
+        font-size: 18px;
+    }
+    .nav_button {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 825px){
+    .header_wrapper{
+        position: relative;
+    }
+    .nav_wrapp {
+        position: absolute;
+        top: 0;
+        right: -350px;
+        width: 350px;
+        background-color: #f9bdbd;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        visibility: hidden;
+        padding: 75px 20px 50px 20px;
+        transition: transform .5s, visibility .5s;
+    }
+    .nav li a:hover {
+        color: #DAA520;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        transition: background-color .3s, opacity .3s, transform 0.4s;
+    }
+    .nav ul {
+        display: block;
+    }
+    .nav ul li{
+        gap: 0;
+    }
+    .nav ul li a{
+        display: block;
+        font-size: 22px;
+        padding: 10px;
+    }
+    .sign_up_link {
+        margin-bottom: 10px;
+    }
+    .header__burger_btn{
+        display: block;
+    }
+    .header.open .nav_wrapp{
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+}
+@media screen and (max-width: 787px){
+    .product li {
+        font-size: 16px;
+    }
+    .footer_links {
+        gap: 40px;
+    }
+}
